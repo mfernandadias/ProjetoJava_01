@@ -8,12 +8,19 @@ public class AulaLoopFor {
         Random generate = new Random();
 
         //loop infinito
-         int i = 0;
+        /* int i = 0;
         while(i < 6){
             int number = generate.nextInt(60);
             System.out.println(number);
             i++;
+        } */
 
+        //loop infinito do for (;;) { }
+
+
+        for (int i = 0; i < 6; i++){
+            int number = generate.nextInt(60);
+            System.out.println(number);
         }
 
     }
