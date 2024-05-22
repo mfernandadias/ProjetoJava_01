@@ -10,5 +10,36 @@ public class Exerc36 {
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);
 
+        int numeroTabuada;
+        int inicioIntervalo;
+        int fimIntervalo;
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print("Digite o número para a tabuada: ");
+        numeroTabuada = entrada.nextInt();
+
+        System.out.print("Digite o valor inicial do intervalo: ");
+        inicioIntervalo = entrada.nextInt();
+
+        System.out.print("Digite o valor final do intervalo: ");
+        fimIntervalo = entrada.nextInt();
+
+        if (inicioIntervalo > fimIntervalo) {
+            System.out.println("Intervalo inválido. O valor final deve ser maior que o inicial.");
+            return;
+        }
+
+        System.out.println("\nTabuada de: " + numeroTabuada);
+        System.out.println("Intervalo de " + inicioIntervalo + " a " + fimIntervalo + ":");
+
+        for (int i = inicioIntervalo; i <= fimIntervalo; i++) {
+            int resultado = numeroTabuada * i;
+            System.out.println(numeroTabuada + " x " + i + " = " + resultado);
+        }
+
+        scan.close();
+    }
+}
+
     }
 }
