@@ -9,10 +9,10 @@ public class exer02 {
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);
 
-        int[] A = new int[5];
-        int[] B = new int[5];
+        int[] A = new int[8];
+        int[] B = new int[8];
 
-        System.out.println("Digite 5 elementos para inserir no vetor");
+        System.out.println("Digite 8 elementos para inserir no vetor");
         for (int i = 0; i < A.length; i++){
             System.out.println("Elemento " + (i + 1) + " : ");
             A[i] = scan.nextInt();

@@ -15,22 +15,26 @@ public class Exerc05 {
 
         System.out.println("Digite 10 valores para o vetor A");
         for (int i = 0; i<A.length; i++){
-            System.out.println("Elemento " + (i + 1) + " : ");
+            System.out.print("Elemento " + (i + 1) + " : ");
             A[i] = scan.nextInt();
         }
 
-
-        /*System.out.println("Digite 15 elementos para inserir no vetor");
-        for (int i =0; i < A.length; i++){
-            System.out.println("Elemento " + (i + 1) + " : ");
-            A[i] = scan.nextInt();
+        System.out.println("O valor do vetor B é: ");
+        for (int i = 0; i < B.length; i++){
+            B[i] = A[i] * i;
         }
 
-        System.out.println("Digite 15 elemento para inserir no vetor");
-        for (int i = 0; i < A.length; i++){
-            System.out.println("Elemento " + (i + 1) + " : ");
-            A[i] = scan.nextInt();
-        } */
+        //print elements of both vectors
+        System.out.print("\nElementos do vetor A: ");
+        for (int elemento : A){
+            System.out.print(elemento + " ");
+        }
+
+        //
+        System.out.print("\nElementos do vetor B: ");
+        for (int elemento : B){
+            System.out.print(elemento +  " ");
+        }
 
 
 
