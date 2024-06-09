@@ -5,9 +5,9 @@ elemento de C é a soma dos respectivos elementos em A e B, ou seja:
 C[i] = A[i] + B[i] 
  */
 
-public class Exerc06 {
+/* public class Exerc06 {
     public static void main(String[]args){
         int[] A =
     }
-}
+} */
 
