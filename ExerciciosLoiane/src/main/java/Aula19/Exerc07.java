@@ -18,7 +18,7 @@ public class Exerc07 {
 
         System.out.println("digite os valores para vetor A: ");
         for (int i = 0; i <A.length; i++){
-            System.out.print("A [" + (i + 1) + "]:");
+            System.out.print("A  [" + (i+ 1) + "]:");
             A[i] = scan.nextInt();
         }
 
