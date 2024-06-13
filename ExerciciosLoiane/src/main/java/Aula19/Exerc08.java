@@ -19,8 +19,10 @@ public class Exerc08 {
             A[i]= scan.nextInt();
         }
 
+        /*
         System.out.println("Digite os valores de vetor B: ");
         for (int i =  )
 
+         */
     }
 }

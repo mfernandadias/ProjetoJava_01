@@ -23,8 +23,28 @@ public class Exer09 {
 
         System.out.println("Digite 10 valores para o vetor B");
         for (int i = 0; i < B.length; i++){
-            System.out.println("A [" + (i + 1) + "]");
+            System.out.println("B [" + (i + 1) + "]");
             B[i] = scan.nextInt();
+        }
+        
+        for (int i = 0; i < C.length; i++){
+            C[i] = A[i] / (B[i]);
+        }
+
+        //print is vactors vectors
+        System.out.print("\nVetor A: ");
+        for (int i = 0; i < A.length; i++){
+            System.out.print(A[i] + " ");
+        }
+
+        System.out.println("\nVetor B: ");
+        for(int i = 0; i < B.length; i++){
+            System.out.print(B[i] + " ");
+        }
+
+        System.out.println("\nVetor C:");
+        for (int i = 0; i<B.length; i++){
+            System.out.print(C[i] + " ");
         }
     }
 }
