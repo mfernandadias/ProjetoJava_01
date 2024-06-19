@@ -1,11 +1,19 @@
 package desafioContaBancaria;
 
-public class ContaCorrente  extends Conta {
-    public void imprimirExtrato(){
-        System.out.println("=== Extrato Conta Corrente === ");
-        System.out.println(String.format("Agencia: %", super.agencia));
-        System.out.println(String.format("Numero: %", super.numero));
-        System.out.println(String.format("Saldo: %", super.saldo));
+
+    public ContaCorrente(Cliente cliente) {
+        super(cliente);
     }
 
-}
+    @Override
+    public void imprimirExtrato() {
+        System.out.println("=== Extrato Conta Corrente ===");
+        super.imprimirInfosComuns();
+    }
+
+
+
+/*
+Desafio de projeto
+* use todo seu conhecimento para estender o domínio, incluindo novas classes, atributor e/ou métodos;
+ */
