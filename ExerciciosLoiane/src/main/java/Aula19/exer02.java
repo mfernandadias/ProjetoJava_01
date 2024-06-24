@@ -12,10 +12,10 @@ public class exer02 {
         int[] A = new int[8];
         int[] B = new int[8];
 
+            //System.out.println("Elemento " + (i + 1) + " : ");
         System.out.println("Digite 8 elementos para inserir no vetor");
-        for (int i = 0; i < A.length; i++){
-            System.out.println("Elemento " + (i + 1) + " : ");
-            A[i] = scan.nextInt();
+            for (int i = 0; i < A.length; i++){
+                A[i] = scan.nextInt();
         }
 
         //copy elements from A to B
