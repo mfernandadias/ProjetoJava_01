@@ -1,6 +1,6 @@
 package aula19;
 
-public class Aluno2Testar {
+public class Aluno2Testar { /*
     public static void main(String [] args){
         Aluno2 aluno1 = new Aluno2();
 
@@ -10,5 +10,5 @@ public class Aluno2Testar {
 
         System.out.println(aluno1.getNome());
 
-    }
+    } */
 }

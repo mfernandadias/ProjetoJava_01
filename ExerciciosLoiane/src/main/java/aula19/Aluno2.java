@@ -1,6 +1,8 @@
 package aula19;
 
 public class Aluno2 {
+    /*
+}
     private String nome;
     int idade;
 
@@ -19,5 +21,8 @@ public class Aluno2 {
         } else {
             System.out.println("Idade invalidada");
         }
-    }
+    } /*
+
+     */
+
 }
