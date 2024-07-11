@@ -1,4 +1,4 @@
-package aula19;
+package aula19Arrays;
 
 public class ProdutoTestar {
     public static void main(String[] args){

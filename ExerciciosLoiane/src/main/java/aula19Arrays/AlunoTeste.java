@@ -1,4 +1,4 @@
-package aula19;
+package aula19Arrays;
 
 public class AlunoTeste {
     public static void main(String[] args){

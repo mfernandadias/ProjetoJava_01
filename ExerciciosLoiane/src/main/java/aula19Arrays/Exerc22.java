@@ -1,4 +1,4 @@
-package aula19;
+package aula19Arrays;
 import java.util.Scanner;
 /*
 
