@@ -5,7 +5,7 @@ public class NumEleatorios {
     public static void main(String[] args){
         //cria uma instância da classe Random
         Random random = new Random();
-        
+
 
         // Declara e inicializa um vetor de inteiros com 10 elementos
         int[] numerosAleatorios = new int[10];
