@@ -20,6 +20,5 @@ public class Exer37 {
         System.out.println("Digite o terceiro lado");
         double lado3 = scan.nextDouble();
 
-        boolean pode
     }
 }
