@@ -9,10 +9,10 @@ public class Exer57 {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite a quantidade de números primos desejada: ");
+        System.out.println("Digite a quantidade que você deseja de números primos");
         int quantidade = scan.nextInt();
 
-        System.out.println("Os primeiros " + quantidade + " números primos são: " );
+        System.out.println("A quantidade que você deseja de número é: " + quantidade);
 
         int numero = 2;
         int contador = 0;
@@ -20,18 +20,20 @@ public class Exer57 {
         while (contador < quantidade){
             boolean isPrimo = true;
 
-            for(int i = 2; i <= Math.sqrt(numero); i++){
-                if(numero % i == 0){
+            for (int i = 2; i <= Math.sqrt(numero); i++){
+                if (numero % i == 0){
                     isPrimo = false;
                     break;
                 }
             }
+
             if(isPrimo){
-                System.out.println(numero + " ");
+                System.out.print(numero + " ");
                 contador++;
             }
             numero++;
         }
         scan.close();
     }
+
 }
