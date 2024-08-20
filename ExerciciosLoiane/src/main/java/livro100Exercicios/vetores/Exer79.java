@@ -31,7 +31,7 @@ public class Exer79 {
 
         System.out.println("Resultado do vetor de multiplicação");
         for(int i = 0; i < tamanho; i++){
-            System.out.println("Posição" + (i + 1) + ":");
+            System.out.println("Posição" + (i + 1) + ":" + vetorResultado[i]);
         }
 
         scan.close();
