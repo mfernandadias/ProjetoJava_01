@@ -41,9 +41,59 @@ public class Vetor02 {
         return false;
     }
 
+    //aula 07 - Adicionar elementos em qualquer posição do veto
+    //0 1 2 3 4 5 6 = tamanho é 5
+    //B C E F G + +
+    public boolean adiciona(int posicao, String elemento){
+        //verificar se a posição é valida ou não
+        if(!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posicao Inválida");
+        }
+
+        this.aumentaCapacidade();
+
+        //mover todos os elementos
+        for(int i = this.tamanho-1; i>= posicao; i--){
+            this.elementos[i] = this.elementos[i];
+        }
+
+        this.elementos[posicao]  = elemento;
+        this.tamanho++;
+        return false;
+    }
+
+    //adicionar a capacidade do vetor
+    private void aumentaCapacidade(){
+        if(this.tamanho == this.elementos.length){
+            String[] elementosNovos = new String[this.elementos.length*2];
+            for(int i = 0; i <this.elementos.length; i++){
+                elementosNovos[i] = this.elementos[i];
+            }
+            this.elementos = elementosNovos;
+        }
+    }
+
+    public String busca(int posicao){
+        if(!(posicao >= 0 && posicao < tamanho)){
+            throw new IllegalArgumentException("Posicao Inválida");
+        }
+        return this.elementos[posicao];
+    }
+
+    public int busca(String elemento){
+        for(int i = 0; i < this.tamanho; i++){
+            if(elementos[i].equals(elemento)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public int tamanho(){
         return this.tamanho;
     }
+
+
 
     @Override
     public String toString(){
