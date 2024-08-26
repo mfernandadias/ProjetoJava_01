@@ -1,5 +1,7 @@
 package estruturaDeDados.vetores;
 
+import estruturaDeDados.vetor.Vetor02;
+
 public class Aula02 {
 
     public static void main(String[] args){

@@ -2,7 +2,7 @@ package estruturaDeDados.vetores;
 
 import estruturaDeDados.vetor.Vetor02;
 
-public class Aula7 {
+public class Aula09 {
     public static void main(String[] args){
         Vetor02 vetor = new Vetor02(10);
 
@@ -14,8 +14,18 @@ public class Aula7 {
 
         System.out.println(vetor);
 
-        vetor.adiciona(0, "A");
+        vetor.remove(1);
 
+        System.out.println(vetor);
 
+        System.out.println("Remover o elemento E");
+
+        int pos = vetor.busca("E");
+        if(pos > -1){
+            vetor.remove(pos);
+        } else {
+            System.out.println("Elemento não eciste no vetor");
+        }
+        System.out.println(vetor);
     }
 }
