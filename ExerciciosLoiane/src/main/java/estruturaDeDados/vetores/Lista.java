@@ -1,7 +1,7 @@
 package estruturaDeDados.vetores;
 
 public class Lista {
-    private T[] elementos;
+   /* private T[] elementos;
     private int tamanho;
 
     public Lista(int capacidade){
@@ -30,7 +30,7 @@ public class Lista {
        }
     }*/
 
-    public boolean adiciona(Object elemento){
+    /*public boolean adiciona(Object elemento){
         if(this.tamanho < this.elementos.length){
             this.elementos[this.tamanho] = elemento;
             this.tamanho++;
@@ -88,14 +88,14 @@ public class Lista {
     }
     public int tamanho(){
         return this.tamanho;
-    }
+    } */
 
     // B G D F E H -> posicao a ser removido é 1 (G)
     // 0 1 2 3 4 5 -> tamanho é 5
     //vetor[1] = vetor [2]
     //vetor[2] = [3]
     //vetor[3] = [4]
-    public void remove(int posicao){
+    /*public void remove(int posicao){
         if(!(posicao >= 0 && posicao < tamanho)){
             throw new IllegalArgumentException("POSicao inválida");
         }
@@ -123,5 +123,5 @@ public class Lista {
         s.append("]");
 
         return s.toString();
-    }
+    } */
 }

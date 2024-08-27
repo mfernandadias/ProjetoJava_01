@@ -1,15 +1,13 @@
 package estruturaDeDados.vetores;
 import java.util.ArrayList;
 
-import static com.sun.org.apache.xpath.internal.compiler.Token.contains;
+//import static com.sun.org.apache.xpath.internal.compiler.Token.contains;
 
 public class Aula12 {
     public static void main(String[] args){
 
         ArrayList<String> arrayList = new ArrayList<String>();
 
-        ArrayList.add("A");
-        ArrayList.add("C");
 
         System.out.println("ArrayList");
 
@@ -39,6 +37,5 @@ public class Aula12 {
         System.out.println(arrayList);
         System.out.println(arrayList.size());
 
-        arrayList.
     }
 }

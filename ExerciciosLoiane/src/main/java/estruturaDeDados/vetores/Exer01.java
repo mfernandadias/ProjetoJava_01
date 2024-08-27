@@ -7,7 +7,7 @@ public class Exer01 {
     melhore a classe Lista e implemente o método contém, semelhante ao método contains da
     classe arrayList
      */
-    private T[] elementos;
+    /*private T[] elementos;
     private int tamanho;
 
     public Exer01(int capacidade){
@@ -104,15 +104,15 @@ public class Exer01 {
 
 		return false;*/
 
-        return busca(elemento) > -1; //>=0
-    }
+       // return busca(elemento) > -1; //>=0
+    //}
 
     // B D E F F -> posição a ser removida é 1 (G)
     // 0 1 2 3 4 -> tamanho é 5
     // vetor[1] = vetor[2]
     // vetor[2] = vetor[3]
     // vetor[3] = vetor[4]
-    public void remove(int posicao){
+    /*public void remove(int posicao){
         if (!(posicao >= 0 && posicao < tamanho)){
             throw new IllegalArgumentException("Posição inválida");
         }
@@ -129,7 +129,7 @@ public class Exer01 {
         }
     }
 
-    public void limpar(){
+   /* public void limpar(){
         //opção 1
         //this.elementos = (T[]) new Object[this.elementos.length];
 
@@ -165,5 +165,5 @@ public class Exer01 {
         s.append("]");
 
         return s.toString();
-    }
+    } */
 }
