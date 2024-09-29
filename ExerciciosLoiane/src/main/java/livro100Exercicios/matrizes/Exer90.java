@@ -8,7 +8,7 @@ public class Exer90 {
     0 para campo neutro, e 1 para locais onde haveriam minas), e o programa deveria retornar
     uma matriz indicando, para
     cada posição, o número de minas nas casas vizinhas
-     */
+
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -70,6 +70,6 @@ public class Exer90 {
                 }
             }
         }
-    }
+    } */
 
 }

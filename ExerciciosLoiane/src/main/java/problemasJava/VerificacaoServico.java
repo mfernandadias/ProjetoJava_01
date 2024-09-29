@@ -12,7 +12,7 @@ public class VerificacaoServico {
      Por exemplo, quando um cliente liga para a central de atendimento
      e  menciona um serviço, o atendente deve ser capaz de rapidamente verificar
      se esse serviço está contratado pelo cliente.
-     */
+
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -44,5 +44,5 @@ public class VerificacaoServico {
         // TODO: Verifique se o serviço está na lista de serviços contratados
         scan.close();
 
-    }
+    } */
 }
