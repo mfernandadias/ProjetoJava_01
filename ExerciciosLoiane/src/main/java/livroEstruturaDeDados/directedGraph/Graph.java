@@ -2,7 +2,7 @@ package livroEstruturaDeDados.directedGraph;
 
 import java.util.Stack;
 
-import static com.sun.beans.introspect.ClassInfo.clear;
+
 
 public class Graph {
     private int maxVertexSize; //tamanho bidimensional da matriz
