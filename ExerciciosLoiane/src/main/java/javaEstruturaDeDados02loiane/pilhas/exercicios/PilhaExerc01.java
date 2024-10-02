@@ -6,7 +6,7 @@ public class PilhaExerc01<T> {
     private int topo;
 
     public PilhaExerc01(int capacidade){
-        elementos = new[capacidade];
+        elementos = new int[capacidade];
         topo = -1;
     }
 
