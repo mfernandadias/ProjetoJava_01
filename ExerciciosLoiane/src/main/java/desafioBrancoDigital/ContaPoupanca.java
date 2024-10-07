@@ -2,7 +2,7 @@ package desafioBrancoDigital;
 
 public class ContaPoupanca extends Conta {
 
-    public ContaPoupanca(Cliente cliente) {
+    /*public ContaPoupanca(Cliente cliente) {
 
         super(cliente);
     }
@@ -12,4 +12,6 @@ public class ContaPoupanca extends Conta {
         System.out.println("=== Extrato Conta Poupança ===");
         super.imprimirInfosComuns();
     }
+
+     */
 }

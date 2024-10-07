@@ -1,7 +1,8 @@
 package desafioBrancoDigital;
 
 public class Main {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
+
         Cliente venilton = new Cliente();
         venilton.setNome("Venilton");
 
@@ -13,5 +14,6 @@ public class Main {
 
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
-    }
+    } */
+
 }
